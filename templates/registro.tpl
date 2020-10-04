@@ -69,15 +69,15 @@
                 <tbody>
                     <tr>
                         <td>Cuentas Totales:</td>
-                        <td>123123</td>
+                        <td>56254</td>
                     </tr>
                     <tr>
                         <td>Personajes totales:</td>
-                        <td>1234112</td>
+                        <td>56254*2</td>
                     </tr>
                     <tr>
                         <td>Guilds totales:</td>
-                        <td>4123</td>
+                        <td>3120</td>
                     </tr>
                     <tr>
                         <td>Usuarios en linea</td>
