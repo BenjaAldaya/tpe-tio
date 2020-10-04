@@ -5,7 +5,7 @@ class pageView{
 
     function showHome() {
         $smarty = new Smarty();
-        $smarty -> display('templates/index.tpl');
+        $smarty -> display('templates/home.tpl');
     }
 
     function showInfo() {
