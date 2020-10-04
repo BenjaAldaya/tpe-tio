@@ -23,7 +23,8 @@ class pageView{
         $smarty -> display('templates/usuariosvip.tpl');
     }
 
-    // function showError($error) {
-    //     $smarty=assign('error', $error);
-    // }
+    function showError($error){
+        $smarty=assign('error', $error);
+        $smarty -> display('templates/error.tpl');
+    }
 }

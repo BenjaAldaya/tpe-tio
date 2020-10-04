@@ -27,4 +27,8 @@ class pageController {
     function showUsersVip() {
         $this->view->showUsersVip();
     }
+    
+    function showError($error){
+        $this->view->showError($error);
+    }
 }
