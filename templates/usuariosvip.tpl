@@ -1,3 +1,4 @@
+{include file="header.tpl"}
 <div class="row d-sm-none">
     <div class="col">
         <a href="#iniciosesioncollapse"><button class="btn btn-secondary btn-lg btn-dark btn-outline-light w-100 mt-1 p-3" type="button" data-toggle="collapse" data-target="#iniciosesioncollapse" aria-expanded="false" aria-controls="iniciosesioncollapse">
@@ -125,7 +126,7 @@
                             <input class="form-control mr-4 " type="number " id="viplevelUser">
                         </div>
                     </div>
-                    <div class="form-row ">
+                    <div class="form-row "> 
                         <div class="col-md-6 col-lg-4">
                             <button id="btnAgregar" class="btn btn-primary btn-md btn-dark btn-outline-light ">Agregar</button>
                         </div>
@@ -143,3 +144,4 @@
             </div>
         </section>
     </article>
+{include file="footer.tpl"}

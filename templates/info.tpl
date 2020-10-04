@@ -1,3 +1,4 @@
+{include file="header.tpl"}
 <!-- BOTON INICIO SESION MOBILE -->
 <div class="row d-sm-none">
     <div class="col">
@@ -103,7 +104,7 @@
         </section>
     </article>
     <!-- ARTICULO SECUNDARIO -->
-    <artcile id="izq " class="col-sm">
+    <article id="izq " class="col-sm">
         <!-- SECION INICIO SESION -->
         <section>
             <div class="bordearticle bg-dark text-white d-none d-sm-block text-center">
@@ -217,5 +218,6 @@
                 </table>
             </div>
         </section>
-    </artcile>
+    </article>
 </div>
+{include file="footer.tpl"}

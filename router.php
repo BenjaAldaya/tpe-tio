@@ -1,6 +1,5 @@
 <?php
 include_once 'app/controllers/page.controller.php';
-include_once 'app/controllers/admin.controller.php';
 
 
 // defino la base url para la construccion de links con urls semánticas
@@ -19,7 +18,7 @@ $params = explode('/', $action);
 // determina que camino seguir según la acción
 switch ($params[0]) {
     case 'home':
-        $controller = new Controller();
+        $controller = new pageController();
         $controller->showHome();
     break;
     case 'info':
@@ -37,7 +36,7 @@ switch ($params[0]) {
     default:
         header("HTTP/1.0 404 Not Found");
         $msg = '404 not found';
-        $controller = new Controller();
+        $controller = new pageController();
         $controller->showError($msg);
     break;
 }

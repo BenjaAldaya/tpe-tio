@@ -30,7 +30,7 @@
                                 <span class="sr-only ">(current)</span></a>
                         </li>
                         <li class="nav-item botones col ">
-                            <a class="nav-link " href="#" id="registro">
+                            <a class="nav-link " href="registro" id="registro">
                                 <p>Registrarse</p>
                             </a>
                         </li>
