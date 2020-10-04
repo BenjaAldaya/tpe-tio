@@ -17,7 +17,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="col 2 ">
-                <a class="navbar-brand " id="logo" href="#">MU AZEROTH</a>
+                <a class="navbar-brand " id="logo" href="home">MU AZEROTH</a>
             </div>
             <div class="col-sm-2 mr-auto">
             </div>
