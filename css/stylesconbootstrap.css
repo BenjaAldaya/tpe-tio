@@ -1,0 +1,188 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    /* font-family: sans-serif; */
+}
+
+
+/*------BARRA DE NAVEGACION------*/
+
+.barranavegacion {
+    box-shadow: 0 10px 10px black;
+}
+
+
+/*------logo------*/
+
+#logo:hover {
+    text-shadow: 0 0 5px rgba(100, 0, 255, 1);
+}
+
+.botones p {
+    margin: auto;
+    line-height: 3rem;
+    font-family: "Girassol";
+}
+
+
+/* ------botones------ */
+
+.botones:hover {
+    text-shadow: 0 0 4px rgba(100, 0, 255, 1);
+    border-bottom: 2px solid white;
+}
+
+
+/* -------body/fondo------ */
+
+body {
+    background-image: url(../images/bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    overflow: scroll;
+}
+
+
+/*------BARRA DE CLASES------*/
+
+.clasesexistentes {
+    background-color: rgba(52, 58, 64, 0.7);
+    margin: 2rem auto;
+    width: 100%;
+}
+
+.clasesexistentes ul {
+    width: 100%;
+}
+
+.clasesexistentes ul li {
+    margin-right: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.clasesexistentes ul li img {
+    border-radius: 100%;
+    height: 6rem;
+}
+
+.clasesexistentes ul li h1 {
+    font-size: 25px;
+    color: white;
+    text-shadow: 1px 1px 1px;
+}
+
+.clasesexistentes ul li h1:hover {
+    text-shadow: 0 0 5px rgba(100, 0, 255, 1);
+}
+
+.clasesexistentes ul li p {
+    font-size: 14px;
+    color: white;
+}
+
+
+/*------SECCION IZQUIERDA------*/
+
+article #izq {
+    text-align: center;
+}
+
+
+/* STATUS */
+
+#usuariosonline {
+    color: green;
+    text-shadow: lightgreen;
+}
+
+
+/* seccion central */
+
+article {
+    width: 100%;
+    text-align: center;
+}
+
+.bordearticle {
+    text-align: center;
+    margin-top: 2rem;
+    width: 100%;
+    padding: .7rem;
+    box-shadow: 5px 0px 5px black;
+    border-bottom: .2rem solid rgba(100, 0, 255, 1);
+}
+
+article h1 {
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 30%;
+}
+
+article p {
+    font-family: sans-serif;
+    font-size: 12px;
+    margin: 1px;
+}
+
+.fomlariocrearcuenta {
+    margin-top: 1rem;
+}
+
+
+/*------PIE DE PAGINA------*/
+
+footer {
+    background-color: rgba(52, 58, 64, 0.7);
+    border-top: 2px solid rgba(100, 0, 255, 1);
+    height: 5rem;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+
+
+/* ------courusel mobile ----- */
+
+.carouselinfo {
+    background-color: seashell;
+    opacity: 0.7;
+    text-decoration-color: black;
+}
+
+
+/* dont collapse media */
+
+@media (min-width: 576px) {
+    .collapse.dont-collapse-sm {
+        display: block;
+        height: auto !important;
+        visibility: visible;
+    }
+}
+
+
+/* ------formularios---------- */
+
+.formularioinicio {
+    padding-bottom: 2rem;
+}
+
+input:focus,
+input[type]:focus {
+    border-color: rgba(100, 0, 255, 0, 8);
+    box-shadow: 0 1px 1px rgba(100, 0, 255, 0.075) inset, 0 0 8px rgba(100, 0, 255, 0.6);
+}
+
+
+/* --------menuadmin--------- */
+
+#mostrarmenu {
+    display: none;
+}
+
+.table-acciones {
+    border: 0px !important;
+}
