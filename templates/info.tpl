@@ -1,3 +1,4 @@
+{include file="header.tpl"}
 <!-- BOTON INICIO SESION MOBILE -->
 <div class="row d-sm-none">
     <div class="col">
@@ -217,5 +218,6 @@
                 </table>
             </div>
         </section>
-    </artcile>
+    </article>
 </div>
+{include file="footer.tpl"}

@@ -1,3 +1,4 @@
+{include file="header.tpl"}
 <div class="row d-sm-none">
     <div class="col">
         <button class="btn btn-secondary btn-lg btn-dark btn-outline-light w-100 mt-1 p-3" type="button" data-toggle="collapse" data-target="#iniciosesioncollapse" aria-expanded="false" aria-controls="iniciosesioncollapse">
@@ -311,3 +312,4 @@
         </div>
     </div>
 </div>
+{include file="footer.tpl"}

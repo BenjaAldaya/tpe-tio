@@ -1,24 +1,30 @@
 <?php
 
-class pageView {
+class pageView{
 
     function showHome() {
-        
+        $smarty = new Smarty();
+        $smarty->display('templates/index.tpl');
     }
 
     function showInfo() {
-        
+        $smarty = new Smarty();
+        $smarty->display('templates/info.tpl');
     }
 
     function showRegister() {
-        
+        $smarty = new Smarty();
+        $smarty->display('templates/registro.tpl');
     }
 
     function showUsersVip() {
-        
+        $smarty = new Smarty();
+        $smarty->display('templates/usuariosvip.tpl');
     }
 
     function showError($error) {
-        $smarty=assign('error', $error);
+        $smarty = new Smarty();
+        $smarty = assign('error', $error);
+        $smarty->display('templates/error.tpl');
     }
 }

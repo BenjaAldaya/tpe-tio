@@ -1,3 +1,4 @@
+{include file="header.tpl"}
 <div class="row">
     <article class="col-sm-8">
         <section>
@@ -86,3 +87,4 @@
             </table>
         </section>
     </article>
+{include file="footer.tpl"}
