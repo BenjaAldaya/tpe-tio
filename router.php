@@ -22,6 +22,18 @@ switch ($params[0]) {
         $controller = new Controller();
         $controller->showHome();
     break;
+    case 'info':
+        $controller = new pageController();
+        $controller->showInfo();
+    break;
+    case 'registro':
+        $controller = new pageController();
+        $controller->showRegister();
+    break;
+    case 'usuariosvip':
+        $controller = new pageController();
+        $controller->showUsersVip();
+    break;
     default:
         header("HTTP/1.0 404 Not Found");
         $msg = '404 not found';

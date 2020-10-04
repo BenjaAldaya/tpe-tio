@@ -12,4 +12,19 @@ class pageController {
         $this->view = new pageView();
     }
 
+    function showHome() {
+        $this->view->showHome();
+    }
+
+    function showInfo() {
+        $this->view->showInfo();
+    }
+
+    function showRegister() {
+        $this->view->showRegister();
+    }
+
+    function showUsersVip() {
+        $this->view->showUsersVip();
+    }
 }
