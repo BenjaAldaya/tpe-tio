@@ -87,4 +87,8 @@
             </table>
         </section>
     </article>
+<<<<<<< HEAD
     {include file="footer.tpl"}
+=======
+{include file="footer.tpl"}
+>>>>>>> c977e63ae431d8c1e579e396ac8f4bc111fe8031

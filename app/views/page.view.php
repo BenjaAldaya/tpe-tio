@@ -1,7 +1,7 @@
 <?php
 require_once('libs/smarty/libs/Smarty.class.php');
 
-class pageView {
+class pageView{
 
     function showHome() {
         $smarty = new Smarty();
