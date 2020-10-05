@@ -1,7 +1,7 @@
     <div class="container-fluid" id="main-content">
         <div class="row">
             <footer class="col">
-                <p>&copyTodos los derechos reservados.</p>
+                <p>&copyTodos los derechos reservados. Created by  Aldaya Benjamin & Binetti Facundo</p>
             </footer>
         </div>
     </div>
