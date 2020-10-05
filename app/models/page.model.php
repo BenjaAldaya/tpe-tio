@@ -1,6 +1,6 @@
 <?php
 
-class pageModel {
+class pageModel {/*
 
     private $db;
 
@@ -12,9 +12,9 @@ class pageModel {
     /**
      * Abre conexión a la base de datos;
      */
-    private function connect() {
+    /*private function connect() {
         $db = new PDO('mysql:host=localhost;'.'dbname=db_MuPhantom;charset=utf8', 'root', '');
         return $db;
     }
-
+*/
 }
