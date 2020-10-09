@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse col" id="navbarSupportedContent">
                 <div class="w-100">
                     <ul class=" navbar-nav  menunavegacion text-sm-center w-100">
-                        <li class="nav-item active  botones col  ">
+                        <li class="nav-item botones col  ">
                             <a class="nav-link " id="inicio" href="home">
                                 <p>Inicio</p>
                                 <span class="sr-only ">(current)</span></a>
